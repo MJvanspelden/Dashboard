@@ -1,0 +1,94 @@
+body {
+    background-image: url(../img/Hexagon.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-blue{
+    background-color: #050A30;
+}
+.white{
+    color: white;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.bg-grey{
+    background-color: lightgray;
+}
+.card-width{
+    width: 140%; 
+}
+
+#login-error-msg-holder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.usernameInput {
+    padding-top: 220px;
+}
+
+.padding{
+    padding-top: 5%;
+}
+
+.padding-percentage{
+    padding-top: 15%;
+    padding-right: 25%;
+    margin-right: 25%;
+}
+
+#login-error-msg {
+    width: 23%;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8a0000;
+    border: 1px solid #8a0000;
+    background-color: #e58f8f;
+    opacity: 0;
+}
+
+#error-msg-second-line {
+    display: block;
+}
+
+.boxSuccesMessage {
+    display: block;
+    border: none;
+    width: 200px;
+    height: 00px;
+}
+
+#succesMessage {
+    display: none;
+    color: green;
+    min-height: 94.2vh;
+}
+
+.img {
+    color: white;
+}
+
+.card-img-top {
+    width: 35%;
+    color: white;
+}
+
+.card {
+    background-color: transparent;
+    color: white;
+    border: transparent;
+}
+
+a {
+    text-decoration: none;
+}
